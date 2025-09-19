@@ -27,3 +27,18 @@ The app provides:
 🔹 Check evaluation metrics (/metrics route)
 
 🔹 Clean and modern UI with dark theme
+
+**File structure** 
+
+<pre>youtube-hate-speech-detector/<br>
+├── app.py                # Main Flask app<br>
+├── utils.py              # Helper function to fetch YouTube comments<br>
+├── templates/<br>
+│   ├── index.html        # UI for input & results<br>
+│   ├── metrics.html      # Metrics page<br>
+├── static/<br>
+│   ├── results.csv       # Generated CSV file (after analysis)<br>
+│   ├── piechart.png      # Generated pie chart (after analysis)<br>
+├── requirements.txt      # Project dependencies<br>
+└── README.md             # Documentation</pre>
+
