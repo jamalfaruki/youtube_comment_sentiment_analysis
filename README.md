@@ -24,20 +24,6 @@ The app provides:
 
 🔹 Export results as CSV
 
-📂 Project Structure
-
-├── app.py                # Main Flask app
-├── utils.py              # Helper function to fetch YouTube comments
-├── templates/
-│   ├── index.html        # UI for input & results
-│   ├── metrics.html      # Metrics page
-├── static/
-│   ├── results.csv       # Generated CSV file (after analysis)
-│   ├── piechart.png      # Generated pie chart (after analysis)
-├── requirements.txt      # Project dependencies
-└── README.md             # Documentation
-
-
 🔹 Check evaluation metrics (/metrics route)
 
 🔹 Clean and modern UI with dark theme
