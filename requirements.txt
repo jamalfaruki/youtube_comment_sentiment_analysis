@@ -1,0 +1,8 @@
+flask
+google-api-python-client
+pandas
+joblib
+scikit-learn
+matplotlib
+transformers
+torch
